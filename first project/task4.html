@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>form</title>
+</head>
+<body>
+	<fieldset>
+		<legend>form</legend>
+		Name:
+	<input type="text" name="name"><br><br>
+	Mobile number:
+	<input type="text" name="mob num"><br><br>
+	Email ID:
+	<input type="text" name="email"><br><br>
+	Password:
+	<input type="Password" name="password"><br><br>
+Gender:
+<input type="radio" value="yesorno" name="gender" >male
+<input type="radio" value="yesorno" name="gender" >female<br><br>
+Course Joined:<br><br>
+<input type="checkbox" value="">java
+<input type="checkbox" value="" >PHP<br><br>
+Uplod Document:
+<form action="upload.php" method="post" enctype="multipart/form-data">
+<input type="file" name="fileToUpload" id="fileToUpload"><br><br>
+start date<input type="date" name="date">
+End date<input type="date" name="date"><br><br>
+Min Class Hours:<input type="number" name="num"><br><br>
+City:<select id="selectBox" name="City">
+            <option selected="selected" value="">Select State Name</option>
+            <option value="Hyderabad">Hyderabad</option>
+            <option value="Banglor">Banglor</option>
+        </select><br>
+        Comments:<br>
+        <textarea></textarea> <br>
+        <input type="submit" name="submit">
+
+</form>
+	</fieldset>
+	
+
+</body>
+</html>
